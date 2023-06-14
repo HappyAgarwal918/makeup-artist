@@ -1,0 +1,1325 @@
+a {text-decoration: none;}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .m-col {padding: 0;}
+    .m-row {width: 100%; margin: 0;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .m-col {padding: 0;}
+}
+
+
+
+/**************************** Banner-Slider-Main-Css-Start *****************************/
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 9% !important;}
+    .slider-product {position: absolute; left: 12% !important; top: 22% !important;}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 15% !important;}
+    .slider-product {position: absolute; left: 12% !important; top: 13% !important;}
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 17% !important;}
+    .slider-product {position: absolute; left: 20% !important; top: 22% !important;}
+}
+
+@media (min-width: 1600px) and (max-width: 1899px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 27% !important;}
+    .slider-product {position: absolute; left: 20% !important; top: 22% !important;}
+}
+
+@media (min-width: 1900px) and (max-width: 2099px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 33% !important;}
+    .slider-product {position: absolute; left: 20% !important; top: 22% !important;}
+}
+
+@media (min-width: 2100px) and (max-width: 2299px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 39% !important;}
+    .slider-product {position: absolute; left: 20% !important; top: 22% !important;}
+}
+
+@media (min-width: 2300px) and (max-width: 2560px) {
+    .slider-info {position: absolute !important; top: 25% !important; right: 43% !important;}
+    .slider-product {position: absolute; left: 20% !important; top: 22% !important;}
+}
+
+/**************************** Banner-Slider-Main-Css-End *****************************/
+
+
+/********************** header-css-start **********************/
+header.navbar-sticky {position: sticky; top: -115px; z-index: 9999;}
+.head-main {position: relative;}
+.navbar-section {background-color: #000; padding-top: 40px; box-shadow: 0 0 5px 0 #ffffff4f;}
+.icons-main, .nav-icons {display: flex; justify-content: space-between; align-items: baseline;}
+.search-bar {position: relative;}
+.search-bar input {background-color: transparent; border: none; border-bottom: 1px solid #fff; 
+    color: #fff; padding: 0px 20px 5px 0;}
+.search-bar input::placeholder {font-size: 13px; font-weight: 700; color: #fff;}
+.search-bar input:focus-visible {outline: none;}
+.search-icon {position: absolute; top: 0px; right: 0px;}
+.search-icon i {font-size: 15px; color: #fff; cursor: pointer;}
+.logo {position: absolute; left: 0; right: 0; z-index: 99; text-align: center; width: 100%; max-width: 110px;
+    margin: auto;}
+.logo img {width: 100%; max-width: 110px; margin-top: -30px;}
+.nav-icons {position: absolute; right: 0; z-index: 99;}
+.nav-icons .wishlist a, .bag a {display: flex; align-items: baseline;}
+.wishlist {padding-right: 22px;}
+.wishlist-main {display: flex; align-items: baseline;}
+.wishlist-main span {color: #fff; margin: 0 5px;}
+.nav-icons .wishlist h2, .bag h2 {font-size: 13px; color: #fff; text-transform: uppercase;}
+.nav-icons .wishlist i, .bag i {font-size: 13px; color: #fff; margin-left: 5px;}
+.navbar-main {padding: 60px 0 0 0 !important;}
+.navbar-main ul li a {font-size: 13px; color: #fff; font-weight: 700; text-transform: uppercase;
+    padding: 0 0 15px 0 !important; border: none; position: relative; display: block;}
+.navbar-main ul li a:hover, .navbar-main ul li a:focus {color: #fff;}
+.navbar-main ul li a::after {content: ''; position: absolute; left: 0px; bottom: 0px; width: 100%; 
+    height: 3px; background-color: #FEFEFE; transform-origin: bottom right;
+    transition: transform 0.5s ease; transform: scaleX(0);}
+.navbar-main ul a:hover::after {transform-origin: bottom left; transform: scaleX(1); margin: 0; border: none;}
+/* .navbar-main ul li:hover .dropdown-menu {display: block;} */
+
+/*-- mega-menu --*/
+.dropdown-hover:hover>.dropdown-menu {display: inline-block;}
+.dropdown-hover>.dropdown-toggle:active {pointer-events: none;}
+.dropdown-main {position: absolute; left: 0; right: 0; padding: 40px 60px !important; background-color: #fff !important; margin: 0 !important;
+    border-radius: 0 !important; text-align: center !important;} 
+.drop-content a {background-color: #fff; transition: 0.3s;}
+.drop-content a:hover {background-color: transparent; box-shadow: 0 0 15px 0 #bd0514f9;}
+.drop-content a:hover::after {display: none;}
+.drop-content img {width: 100%; max-width: 450px; margin-bottom: 5px;}
+.drop-content h2 {font-size: 15px; color: #000;}
+.dropdown-main-two {position: absolute !important; left: 32% !important; right: 0; text-align: center !important;
+    width: 100%; max-width: 220px; margin: 0 !important; padding: 20px !important;
+    background-color: #000 !important; border-radius: 0 !important;}
+.drop-content-two a {background-color: #000000; transition: 0.3s;}
+.drop-content-two a:hover {background-color: transparent; box-shadow: none;}
+.drop-content-two a:hover::after {display: none;}
+.dropdown-main-two h2 {font-size: 15px; margin-bottom: 12px;}
+
+.dropdown-main-three {position: absolute !important; left: 0 !important; right: 0; text-align: center !important;
+    width: 100%; margin: 0 !important; padding: 40px !important; background-color: #fff !important;
+    border-radius: 0 !important;}
+.drop-content-three a {background-color: #fff; transition: 0.3s;}
+.drop-content-three a:hover {background-color: transparent; box-shadow: none;}
+.drop-content-three a:hover::after {display: none;}
+.dropdown-main-three h2 {font-size: 15px; color: #000; margin-bottom: 12px;}
+/********************** header-css-end **********************/
+
+/********************** banner-css-start **********************/
+.banner-slider {height: calc(100vh - 167px); width: 100%; background-position: bottom; background-size: cover;
+    background-repeat: no-repeat; position: relative;}
+.carousel-indicators {display: none !important;}
+button.carousel-control-prev, button.carousel-control-next {position: unset;}
+.home-prev {position: absolute; left: 4%; bottom: 5%;}
+.home-next {position: absolute; left: 6%; bottom: 5%;}
+.slider-info {position: absolute !important; left: unset !important; text-align: left !important; 
+    width: 100%; max-width: 550px;}
+.slider-info {animation: slider 2s linear;}    
+.slider-info h5 {font-size: 50px !important; font-weight: 700; text-transform: uppercase; margin-bottom: 15px;}
+.slider-info p {font-size: 20px; margin-bottom: 30px;}
+.slider-btn a {font-size: 15px; color: #fff; font-weight: 600; border: 1px solid #fff;
+    padding: 15px 80px; transition: 0.3s;}
+.slider-btn a:hover {color: #000; background-color: #fff;}    
+.slider-ani-two {animation: slider-two 2s linear;}
+.slider-ani-three {animation: slider-three 2s linear;}
+
+@keyframes slider {
+    0% {transform: translate(0px, 70px); opacity: 0;}
+    100% {transform: translate(0px, 0px); opacity: 1;}
+}
+@keyframes slider-two {
+    0% {transform: translate(100px, 0); opacity: 0;}
+    100% {transform: translate(0px, 0px); opacity: 1;}
+}
+@keyframes slider-three {
+    0% {transform: translate(0px, -70px); opacity: 0;}
+    100% {transform: translate(0px, 0px); opacity: 1;}
+}
+
+.slider-product {position: absolute; left: 20%; top: 18%; background-color: #fff; padding: 40px;
+    text-align: center; width: 300px;}
+.slider-product img {width: 100%; max-width: 100px;}
+.product-detail h2 {font-size: 14px; color: #000; font-weight: 600; text-transform: uppercase;}
+.product-detail h3 {font-size: 16px; color: #000;}
+.product-detail a {font-size: 13px; color: #000; font-weight: 600; position: relative; display: block;}
+.product-detail a:hover {color: #000;}
+.product-detail a::after {content: ''; position: absolute; left: 0px; right: 0; bottom: 0px; width: 42%; 
+    margin: auto; height: 1px; background-color: #000; transform-origin: bottom right;
+    transition: transform 0.5s ease; transform: scaleX(0);}
+.product-detail a:hover::after {transform-origin: bottom left; transform: scaleX(1);}
+
+.product-ani-one {animation: product-one 2s linear; transition-duration: 1s;}
+.product-ani-two {animation: product-two 2s linear;}
+.product-ani-three {animation: product-three 2s linear;}
+
+@keyframes product-one {
+    0% {transform: translate(0px, -70px); opacity: 0;}
+    100% {transform: translate(0px, 0); opacity: 1;}
+}
+@keyframes product-two {
+    0% {transform: translate(-100px, 0); opacity: 0;}
+    100% {transform: translate(0px, 0px); opacity: 1;}
+}
+@keyframes product-three {
+    0% {transform: translate(0px, 40px); opacity: 0;}
+    100% {transform: translate(0px, 0); opacity: 1;}
+}
+
+/********************** banner-css-end **********************/
+
+/********************** men-css-start **********************/
+.search-filters {display: flex; width: 100%; max-width: 700px; margin: auto;}
+.filter-icon i {font-size: 18px; color: #0000004d; padding: 15px; border: 1px solid #00000040;
+    border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.search-input-main {display: flex; }
+.search-input {border: 1px solid #00000040;}
+.search-input input {border: none; padding: 11px 12px;}
+.search-input input:focus-visible {outline-color: rgba(255, 0, 0, 0.6);}
+.search-input-main select {border-radius: 0 !important;}
+select:focus {border-color: rgba(255, 0, 0, 0.6) !important; box-shadow: none !important;} 
+.filters-btn button {font-size: 18px; color: #fff; background-color: red; padding: 11px 25px;
+    border-radius: 0; border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
+.filters-btn button:hover, .filters-btn button:focus, .filters-btn button:focus-visible, 
+    .filters-btn button:active {background-color: red !important; color: #fff !important;}
+.men-head h2 {font-size: 50px; color: #000; font-weight: 700; margin-bottom: 30px;}
+.mens-image img {height: 250px; width: 100%; max-width: 400px; object-fit: cover;}
+.mens-image-two img {height: 370px; width: 100%; max-width: 400px; object-fit: cover;}
+.mens-info {margin-top: 8px; display: flex; justify-content: space-between;}
+.mens-info i {font-size: 15px; height: 0; color: #000; cursor: pointer; transition: 0.3s;}
+.mens-info i:hover {color: red;}
+.mens-info h2 {font-size: 18px; color: #000; text-transform: uppercase;}
+
+#masonry {column-count: 2; column-gap: 1em;}
+.men-item {display: inline-block; width: 100%;}
+.men-item img {margin-bottom: -4px;}
+
+@media(min-width: 30em) {
+#masonry {
+    column-count: 3;
+    column-gap: 1em;
+}
+}
+
+@media(min-width: 40em) {
+#masonry {
+    column-count: 4;
+    column-gap: 1em;
+}
+}
+
+@media(min-width: 60em) {
+#masonry {
+    column-count: 4;
+    column-gap: 1em;
+}
+}
+
+@media(min-width: 75em) {
+#masonry {
+    column-count: 4;
+    column-gap: 1em;
+}
+}
+
+
+/*##### filters-css (search-items) #####*/
+.filters {position: relative;}
+.search-list {width: 100%; max-width: 820px; max-height: 370px; margin: auto; background-color: #fff; 
+    padding: 20px; border-radius: 10px; border: 1px solid #0000003b; overflow: auto; position: absolute; top: 52px;
+    left: 0; right: 0; z-index: 99; display: none;}
+.search-item ul {width: 250px; display: inline-block; padding-left: 15px; padding-right: 15px; 
+    border-right: 1px solid #0000003b; margin: 0;}
+.search-item ul:nth-child(3) {padding-right: 0; border: none;}
+.search-item ul li {list-style: none; padding-bottom: 10px;}
+.search-item ul li a {font-size: 15px; color: #0000008d; transition: 0.3s;} 
+.search-item ul li a:hover {color: #000; padding-left: 5px;}
+.search-item ul li a i {color: #000; margin-right: 10px;}
+.show {display: block;}
+
+/*##### filters-css (location-items) #####*/
+.location-list ul {border-bottom: 1px solid #dee2e6;}
+.location-list ul li button {font-size: 13px !important; font-weight: 600 !important; 
+    color: red !important;}
+.location-list ul li button.active {border-bottom-color: red !important;}
+.location-items {padding-top: 20px;}
+.location-list {width: 100%; max-width: 820px; max-height: 370px; margin: auto; background-color: #fff; 
+    padding: 20px; border-radius: 10px; border: 1px solid #0000003b; overflow: auto; position: absolute; top: 52px;
+    left: 0; right: 0; z-index: 99; display: none;}
+.location-items ul {width: 250px; display: inline-block; padding-left: 15px; padding-right: 15px; 
+    border-right: 1px solid #0000003b; margin: 0; border-bottom: 1px solid #dee2e6 !important;}
+.location-items ul:nth-child(3), .location-items ul:nth-child(6) {padding-right: 0; border: none;}
+.location-items ul li {list-style: none; padding-bottom: 10px;}
+.location-items ul li a {font-size: 15px; color: #0000008d; transition: 0.3s;} 
+.location-items ul li a:hover {color: #000; padding-left: 5px;}
+.location-items ul li a i {color: #000; margin-right: 10px;}
+.show {display: block;}
+/********************** men-css-end **********************/
+
+/********************** footer-css-start **********************/
+/* .footer-section {background-color: #c0c0c070;}
+.footer-head h2 {font-size: 30px; color: #000; font-weight: 600; margin-bottom: 15px;}
+.footer-logo {display: flex;}
+.footer-logo a {width: 100%; max-width: 100px; margin-right: 10px;}
+.footer-logo img {width: 100%; max-width: 100px; background-color: #000; padding: 10px;}
+.footer-info p {font-size: 18px; color: #000; font-weight: 600; width: 60%; line-height: 1.3;}
+.footer-app {display: flex; margin-top: 50px; justify-content: end;}
+.footer-app img {width: 100%; max-width: 170px;}
+.footer-app a  {width: 100%; max-width: 170px; margin-left: 10px;}
+.links-heading h2 {font-size: 30px; color: #000; font-weight: 600; padding-top: 40px; 
+    text-align: center; margin-bottom: 30px;}
+.footer-links ul {padding: 0;}
+.footer-links ul li {list-style: none; padding-bottom: 8px;}
+.footer-links ul li a {font-size: 16px; color: #000; text-transform: capitalize; transition: 0.5s;}
+.footer-links ul li a:hover {text-decoration: underline; color: red;}
+.footer-main {margin-top: 85px !important;}
+.footer-line {height: 1px; width: 100%; background-color: #0000002e;}
+.footer-last {display: flex; justify-content: space-between; padding-top: 15px;}
+.follow-links-m {display: flex;}
+.footer-last p {font-size: 16px; color: #000;}
+.follow-links-m h2 {font-size: 18px; color: #000; margin-right: 15px;}
+.follow-links i {font-size: 20px; color: #000; margin-right: 4px; transition: 0.3s;}
+.follow-links i:hover {transform: translateY(-5px); color: red;} */
+
+.footer-section {background-color: #000;}
+.footer-logo {margin-bottom: 20px;}
+.footer-logo img {width: 100%; max-width: 100px;}
+.footer-discription p {font-size: 15px; color: #fff; text-align: center; width: 60%; margin: 20px auto;}
+.follow-links i {font-size: 22px; color: #fff; border: 1px solid #fff; padding: 10px;
+    border-radius: 50%; margin: 5px 5px; transition: .3s;}
+.follow-links i:hover {background-color: #800000; color: #fff; border-color: #800000;}
+.footer-links {padding-top: 20px; border-bottom: 1px solid #ffffff63;}
+.footer-links ul {padding: 0; display: flex; justify-content: center;}
+.footer-links ul li {list-style: none; padding: 0 10px; border-right: 1px solid #ffffff37;}
+.footer-links ul li:nth-child(8) {border: none;}
+.footer-links ul li a {font-size: 14px; color: #fff; transition: .3s;}
+.footer-links ul li a:hover {color: #800000; text-decoration: underline;}
+.copyright {background-color: #30303085; padding: 20px 0;}
+.copyright h5 {font-size: 16px; color: #fff; margin: 0;}
+/********************** footer-css-end **********************/
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+/********************** header-css-start **********************/
+header.navbar-sticky {position: sticky; top: 0;}
+.navbar-section {padding: 0; height:50px;}
+.modal-backdrop {position: fixed !important; top: 0 !important; left: 0 !important; z-index: 1040 !important;
+    width: 100vw !important; height: 100vh !important; background-color: #000 !important;}
+.logo {top: 11px !important; left: 0 !important; right: unset; text-align: unset !important; 
+    margin: unset !important;}
+.logo img {max-width: 45px !important; margin-top: -8px !important;}
+.icons-main {position: relative;}
+.nav-icons {position: absolute; top: 10px !important; right: 6px;}
+.nav-icons .wishlist h2, .bag h2 {font-size: 12px;}
+.nav-icons .wishlist i, .bag i {font-size: 13px;}
+.bag {padding-right: 50px;}
+.offcanvas-main {position: relative;}
+.offcanvas-btn {position: absolute; top: 10px; right: 0; z-index: 99;}
+.offcanvas-btn button {background-color: transparent; padding: 0; font-size: 20px; box-shadow: none;}
+.offcanvas-btn button:hover {background-color: transparent;}
+.offcanvas-btn button:active {background-color: transparent !important;}
+.offcanvas-btn button:focus {background-color: transparent !important;}
+.canvas-main {background-color: #000 !important;}
+.canvas-head img {width: 100%; max-width: 50px;}
+.canvas-head button {background-color: #fff; padding: 5px !important;}
+.canvas-head {border-bottom: 1px solid #ffffff78;}
+
+/* .dropdown-menu {transform: translate3d(0, 0, 0px) !important; position: unset !important;
+    background-color: transparent !important;} */
+.canvas-body {padding: 0 !important;}
+.canvas-body ul li {padding: 0 15px;}
+.canvas-body ul li a {font-size: 13px; color: #fff; padding: 12px 15px; border-bottom: 1px solid #ffffff47;
+    text-transform: uppercase;}
+.canvas-body ul li a:hover, .canvas-body ul li a:focus {color: #fff;}
+.side-content a {font-size: 12px !important; border: none !important; padding: 6px 15px !important;}
+.canvas-body ul li a i {font-size: 13px; margin-right: 10px;}
+/********************** header-css-end **********************/
+
+/********************** banner-css-start **********************/
+.banner-slider {height: calc(100vh - 50px);}
+.slider-product {position: absolute; top: unset; left: 0; right: 0; bottom: 5%; width: 180px; 
+    padding: 20px; margin: auto;}
+.slider-product img {max-width: 50px;}
+.slider-info h5 {font-size: 20px !important;}
+.slider-info p {font-size: 15px; margin-bottom: 20px;}
+.slider-btn a {font-size: 12px; padding: 10px 23px;}
+.product-detail h2 {font-size: 12px;}
+.product-detail h3 {font-size: 14px;}
+.product-detail a {font-size: 12px;}
+.product-detail a::after {width: 60%;}
+.slider-info {position: absolute !important; top: 5% !important; right: 0% !important; left: 0 !important;
+    text-align: center !important; max-width: 300px; margin: auto;}
+.home-prev {position: absolute; left: 2%; bottom: 5%;}
+.home-next {position: absolute; left: 9%; bottom: 5%;}
+/********************** banner-css-end **********************/
+
+/********************** men-css-start **********************/
+.search-filters {justify-content: center;}
+.filter-icon {display: none;}
+.search-input input {padding: 10px 8px; width: 80px;}
+.search-input-main select {padding: 10px 30px 10px 8px;}
+.search-input input::placeholder {font-size: 12px;}
+.filters-btn button {font-size: 12px; padding: 15px 5px;}
+.search-list {width: 296px; max-height: 350px;}
+.location-list {max-width: 296px;}
+.search-item ul {padding-left: 0px; border-right: none;}
+.location-list ul li button {font-size: 11px !important;}
+.location-items ul {border-right: none;}
+
+.men-head h2 {font-size: 28px; margin-bottom: 15px;}
+.mens-image img {height: 180px;}
+.mens-image-two img {height: 220px;}
+/* .mens-image img, .mens-image-two img {max-width: unset;} */
+#masonry {column-count: 2; column-gap: 0.6em;}
+.mens-info h2 {font-size: 14px;}
+.mens-info i {font-size: 12px;}
+/********************** men-css-end **********************/
+
+/********************** footer-css-start **********************/
+/* .footer-head h2 {font-size: 25px; margin-bottom: 20px;}
+.footer-logo {display: block;}
+.footer-logo img {max-width: 100px; margin-bottom: 10px;}
+.footer-info p {font-size: 15px; width: 100%;}
+.footer-app {margin-top: 10px; justify-content: start;}
+.footer-app img {max-width: 120px;}
+.footer-app a {max-width: 120px; margin-right: 5px; margin-left: 0;}
+.footer-main {margin-top: 0px !important;}
+.links-heading h2 {font-size: 25px; padding-top: 20px; text-align: left; margin-bottom: 20px;}
+.footer-links ul {margin-bottom: 0px;}
+.footer-links ul li {padding-bottom: 10px;}
+.footer-links ul li a {font-size: 15px;}
+.footer-line {margin-top: 20px;}
+.footer-last p {font-size: 12px;}
+.follow-links {margin-top: -3px;}
+.follow-links-m h2 {font-size: 14px; margin-right: 10px;}
+.follow-links i {font-size: 18px;} */
+
+.footer-logo {margin-bottom: 0;}
+.footer-discription p {font-size: 14px; width: 100%; margin: 10px auto;}
+.follow-links i {font-size: 18px; padding: 8px; margin: 5px 2px;}
+.footer-links ul {display: block;}
+.footer-links ul li {padding: 5px 0; border-right: none;}
+/********************** footer-css-end **********************/
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+/********************** header-css-start **********************/
+header.navbar-sticky {position: sticky; top: 0;}
+.navbar-section {padding: 0; height: 60px;}
+.modal-backdrop {position: fixed !important; top: 0 !important; left: 0 !important; z-index: 1040 !important;
+    width: 100vw !important; height: 100vh !important; background-color: #000 !important;}
+.logo {top: 17px !important; left: 0 !important; text-align: unset !important; margin: unset !important;}
+.logo img {max-width: 60px !important; margin-top: -17px !important;}
+.nav-icons {position: absolute; right: 20px; top: 18px !important;}
+.icons-main {position: relative;}
+.bag {padding-right: 50px;}
+.offcanvas-main {position: relative;}
+.offcanvas-btn {position: absolute; top: 8px; right: 0; z-index: 99;}
+.offcanvas-btn button {background-color: transparent; padding: 0; font-size: 25px; box-shadow: none;
+    margin-top: 4px;}
+.offcanvas-btn button:hover {background-color: transparent;}
+.offcanvas-btn button:active {background-color: transparent !important;}
+.offcanvas-btn button:focus {background-color: transparent !important;}
+.canvas-main {background-color: #000 !important;}
+.canvas-head img {width: 100%; max-width: 50px;}
+.canvas-head button {background-color: #fff; padding: 5px !important;}
+.canvas-head {border-bottom: 1px solid #ffffff78;}
+
+/* .dropdown-menu {transform: translate3d(0, 0, 0px) !important; position: unset !important;
+    background-color: transparent !important;} */
+.canvas-body {padding: 0 !important;}
+.canvas-body ul li {padding: 0 15px;}
+.canvas-body ul li a {font-size: 17px; color: #fff; padding: 18px 20px; border-bottom: 1px solid #ffffff47;
+    text-transform: uppercase;}
+.canvas-body ul li a:hover, .canvas-body ul li a:focus {color: #fff;}
+.side-content a {font-size: 15px !important; border: none !important; padding: 12px 20px !important;}
+.canvas-body ul li a i {font-size: 17px; margin-right: 10px;}
+/********************** header-css-end **********************/
+
+/********************** banner-css-start **********************/
+.banner-slider {height: calc(100vh - 60px);}
+.home-prev {position: absolute; left: 3%; bottom: 5%;}
+.home-next {position: absolute; left: 6%; bottom: 5%;}
+.slider-product {position: absolute; top: 30%; left: 12%; width: 250px;}
+.slider-product img {max-width: 60px;}
+.slider-info {position: absolute !important; top: 30% !important; right: 6% !important; max-width: 360px;}
+.slider-info h5 {font-size: 30px !important;}
+.slider-info p {font-size: 18px;}
+.slider-btn a {font-size: 12px; padding: 12px 50px;}
+.product-detail a::after {width: 52%;}
+/********************** banner-css-end **********************/
+
+/********************** men-css-start **********************/
+.mens-image img {height: 200px;}
+.mens-image-two img {height: 280px;}
+.mens-info h2 {font-size: 14px;}
+
+/*##### filters-css (Search-items) #####*/
+.search-item ul {width: 210px; padding-left: 10px; padding-right: 10px;}
+
+/*##### filters-css (location-items) #####*/
+.location-items ul {width: 210px;}
+/********************** men-css-end **********************/
+
+/********************** footer-css-start **********************/
+/* .footer-head h2 {font-size: 25px;}
+.footer-info p {font-size: 14px; width: 96%;}
+.footer-app img, .footer-app a {max-width: 120px;} */
+
+.footer-discription p {font-size: 14px; width: 90%; margin: 10px auto;}
+.footer-links ul li {padding: 0 5px; line-height: 1.2;}
+.footer-links ul li a {font-size: 12px;}
+/********************** footer-css-end **********************/
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+/********************** header-css-start **********************/
+.wishlist {padding-right: 5px;}   
+.nav-icons .wishlist h2, .bag h2 {font-size: 11px;}
+.nav-icons .wishlist i, .bag i {font-size: 11px;}
+/********************** header-css-end **********************/ 
+
+/********************** banner-css-start **********************/
+.home-prev {position: absolute; left: 4%; bottom: 5%;}
+.home-next {position: absolute; left: 6%; bottom: 5%;}
+.slider-product {width: 250px;}
+.slider-product img {max-width: 60px;}
+/* .slider-info {position: absolute !important; top: 27% !important; right: 6% !important; max-width: 500px;} */
+.slider-info h5 {font-size: 30px !important;}
+.slider-info p {font-size: 18px;}
+.slider-btn a {font-size: 12px;}
+/********************** banner-css-end **********************/
+
+/********************** footer-css-start **********************/
+.footer-links ul li {padding: 0 8px;}
+.footer-links ul li a {font-size: 12px;}
+/********************** footer-css-end **********************/
+
+}
+
+
+/*###################################### About-US-Css-Start ######################################*/
+
+/*********************** about-css-start ***********************/
+.new-about-image img {width: 100%; max-width: 600px;}
+.new-about-head h2 {font-size: 40px; color: #000; font-weight: 600; margin-bottom: 20px;}
+.new-about-info p {font-size: 16px; color: #000;}
+.new-about-btn {margin-top: 45px;}
+.new-about-btn a {font-size: 20px; color: #fff; background-color: #000; padding: 10px 30px;
+    border: 1px solid #000; transition: .3s;}
+.new-about-btn a:hover {background-color: #fff; color: #000;}  
+/*********************** about-css-end ***********************/
+
+/*********************** New-about-slider-css-start ***********************/
+.new-testimonial-section {background-color: #000;}
+.new-testimonial {width: 100%; max-width: 700px; margin: auto; text-align: center; margin-bottom: 10px;}
+.new-testimonial-image img {width: 100%; max-width: 100px; margin: 10px auto; border-radius: 50%;}
+.new-testimonial-title h2 {font-size: 30px; color: #fff; font-weight: 700; margin-bottom: 20px;}
+.new-testimonial-info p {font-size: 17px; color: #ffffffad;}
+/*********************** New-about-slider-css-end ***********************/
+
+/*********************** our-partner-css-start ***********************/
+.partner-head h2 {font-size: 40px; color: #000; font-weight: 600;}
+.partner-image img {margin: 50px auto; width: 100%; max-width: 300px;}
+/*********************** our-partner-css-end ***********************/
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+/*********************** about-css-start ***********************/
+.new-about-image img {margin-bottom: 15px;}
+.new-about-head h2 {font-size: 25px; margin-bottom: 10px; text-align: center;}
+.new-about-info p {font-size: 14px; text-align: justify;}
+.new-about-btn {margin-top: 20px; text-align: center;}
+.new-about-btn a {font-size: 18px; padding: 8px 30px;}
+/*********************** about-css-end ***********************/
+
+/*********************** New-about-slider-css-start ***********************/
+.new-testimonial-title h2 {font-size: 25px; margin-bottom: 10px;}
+.new-testimonial-info p {font-size: 15px;}    
+/*********************** New-about-slider-css-end ***********************/
+
+/*********************** our-partner-css-start ***********************/
+.partner-head h2 {font-size: 28px;}
+/*********************** our-partner-css-end ***********************/
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+/*********************** about-css-start ***********************/
+.new-about-image {text-align: center;}
+.new-about-image img {max-width: 450px; margin-bottom: 20px;}
+.new-about-head h2 {font-size: 28px; margin-bottom: 10px;}
+.new-about-btn {margin-top: 30px;}
+.new-about-btn a {font-size: 18px;}
+/*********************** about-css-end ***********************/
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+
+/*********************** about-css-start ***********************/
+.new-about-head h2 {font-size: 32px; margin-bottom: 5px;}
+.new-about-info p {font-size: 15px;}
+.new-about-btn {margin-top: 0px;}
+/*********************** about-css-end ***********************/
+    
+}
+
+/*###################################### About-US-Css-End ######################################*/
+
+
+/*###################################### Single-Artist-Css-Start ######################################*/
+
+/********************** banner-css-start **********************/
+.about-section {background-image: url(../images/bg_testimonials.jpg); height: 350px; width: 100%; background-position: center;
+    background-size: cover; background-repeat: no-repeat; position: relative;}
+.about-section::after {content: ""; background-color: #0000004f; height: 100%; width: 100%; position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;}
+.about-breadcrumb {position: absolute; top: 130px; left: 0; right: 0; z-index: 99;}
+.about-breadcrumb ol {justify-content: center;}      
+.about-breadcrumb ol li a, .about-breadcrumb ol li, .about-breadcrumb ol li::before {font-size: 25px; 
+    color: #fff !important; font-weight: 700; transition: 0.5s;}   
+.about-breadcrumb ol li a:hover {color: #800000 !important;}    
+.about-breadcrumb ol li a i {margin-right: 5px;}
+/********************** banner-css-end **********************/
+
+/********************** slider-css-start **********************/
+.about-main {position: relative;}
+.about-slider-image img {width: 100%; max-width: 600px;}
+.about-slider-info {position: relative; margin-left: -100px; padding: 40px 0;}
+.about-slider-head h2 {font-size: 35px; color: #4b6680; font-weight: 700;}
+.about-slider-head h3 {font-size: 22px; color: #eea8b4;}
+.stars-main {display: flex; align-items: center;}
+.slider-stars {display: flex; justify-content: center; align-items: center; background-color: #fff; padding: 10px; border-radius: 20px; width: 100%;
+    max-width: 170px; box-shadow: 0 0 10px 0 #00000047; margin-right: 30px;}
+.slider-stars i {font-size: 15px; color: #fdc600;}    
+.start-num h4 {font-size: 17px; color: #000; padding-left: 15px; margin: 0;}
+.about-discription {background-color: #000; padding: 20px; margin: 30px 0;}
+.about-discription p {font-size: 17px; color: #fff; margin: 0;}
+.about-review {display: flex; align-items: center; background-color: #fff; padding: 20px; 
+    border-radius: 20px; box-shadow: 0 0 5px 0 #00000047; margin: 5px;}
+.about-review img {height: 80px; width: 100%; max-width: 80px; border-radius: 50%;}
+.about-review-info {padding-left: 10px;}
+.about-review-info h2 {font-size: 25px; color: #4b6680; font-weight: 700; margin: 0;}
+.about-review-info i {font-size: 15px; color: #fdc600;}  
+.about-review-info p {font-size: 15px; color: #000; font-weight: 600; margin: 0; line-height: 1.4;}
+.about-next::after, .about-prev::after {font-size: 20px !important;}
+.about-prev {position: absolute; left: 44% !important; bottom: 5%; background-color: #000;
+    height: 35px !important; width: 35px !important; border-radius: 50%; box-shadow: 0 0 5px 0 #000;
+    padding: 2px;}
+.about-next {position: absolute; right: 44% ; bottom: 5%; background-color: #000;
+    height: 35px !important; width: 35px !important; border-radius: 50%; box-shadow: 0 0 5px 0 #000;
+    padding: 2px;}
+.modal {background-color: #0000006f;}   
+.pop-up {background-color: #000 !important;}
+.pop-head {border-color: #ffffff54 !important;}
+.review-modal button {font-size: 13px; color: #fff; background-color: #000 !important; 
+    box-shadow: none !important;} 
+.review-modal button:hover {background-color: #000 !important; box-shadow: none !important;}
+.pop-head button, .pop-head button:hover {background-color: #fff !important;}
+.pop-head h1 {font-size: 20px; color: #fff;}
+.review-image img {width: 100%; max-width: 300px;}
+.review-title h3 {font-size: 22px; color: #eea8b4; font-weight: 600; text-align: center; margin-top: 5px;}
+.review-info textarea {width: 100%; background-color: #000; color: #fff; padding: 10px; 
+    margin-bottom: 5px;}
+.review-btn button {font-size: 16px; color: #000; background-color: #fff !important; padding: 5px 20px;
+    border: 1px solid #fff; transition: .3s;}
+.review-btn button:hover {background-color: #000; border-color: #fff; color: #fff;}
+.review-head {display: flex; justify-content: space-between; align-items: center;}
+.review-head h4 {font-size: 22px; color: #fff; font-weight: 600; margin: 0;}
+.review-stars i {font-size: 15px; color: #fdc600;}
+
+/* rating-stars */
+.rate {float: left; height: 46px;}
+.rate:not(:checked) > input {position:absolute; top:-9999px;}
+.rate:not(:checked) > label {float:right; width:1em; overflow:hidden; white-space:nowrap; cursor:pointer;
+    font-size:30px; color:#ccc;}
+.rate:not(:checked) > label:before {content: '★ ';}
+.rate > input:checked ~ label {color: #fdc600;}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {color: #fdc600;}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {color: #fdc600;}
+/********************** slider-css-end **********************/
+
+/********************** package-section-css-start **********************/
+.package-section {background-color: #000;}
+.package {background-color: #fff;}
+.package h2 {font-size: 50px; color: #000; font-weight: 700;}
+.package-head h2 {font-size: 50px; color: #fff; font-weight: 700;}
+.package-slider {padding: 40px 0;}
+.package-images img {width: 100%; max-width: 300px; height: 200px; object-fit: cover;}
+.owl-info {background-color: #fff; padding: 5px 0; text-align: center;}
+.owl-info h2 {font-size: 15px; color: #000; font-weight: 700; margin: 0;}
+.owl-info i {font-size: 15px; color: #fdc600;}
+.owl-info h3 {font-size: 14px; color: #000; margin: 0;}
+/********************** package-section-css-end **********************/
+
+/********************** match-section-css-start **********************/
+.match-head h2 {font-size: 30px; color: #000; margin: 0;}
+.match-head h3 {font-size: 50px; color: #000; font-weight: 900;}
+.card-image-main {position: relative; cursor: pointer;}
+.card-image::after {content: ""; background-color: #0000007e; height: 100%; width: 100%; position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0; opacity: 0; transition: all .75s ease;}
+.card-image-main:hover .card-image::after {opacity: 1;}    
+.card-image img {width: 100%; max-width: 350px; height: 270px; object-fit: cover;}
+.card-main {display: flex; justify-content: space-between; align-items: center; background-color: #000;
+    padding: 10px; box-shadow: 0 0 5px 0 #000; transform: translate(0px, 20px); opacity: 0;
+    transition: all .5s ease; position: absolute; left: 0; right: 0; bottom: 0; z-index: -9;}
+.card-image-main:hover .card-main {transform: translate(0, 0); opacity: 1; position: absolute; bottom: 0;
+        z-index: 99;}  
+.card-info h2 {font-size: 18px; color: #f47f94; font-weight: 700; margin-bottom: 3px;}
+.card-info h3 {font-size: 13px; color: #fff; margin: 0;}
+.card-link i {font-size: 20px; color: #fff; transition: 0.3s;}
+.card-link i:hover {transform: translateY(-5px);}
+/********************** match-section-css-end **********************/
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** banner-css-start **********************/
+.about-section {height: 300px;}
+.about-breadcrumb {position: absolute; top: 100px;}
+.about-breadcrumb ol li a, .about-breadcrumb ol li, .about-breadcrumb ol li::before {font-size: 20px;}
+/********************** banner-css-end **********************/
+
+/********************** slider-css-start **********************/
+.about-slider-image {text-align: center;}
+.about-slider-image img {max-width: 250px;}
+.about-slider-info {margin-left: 0; padding: 10px 0; text-align: center;}
+.about-slider-head h2 {font-size: 22px;}
+.about-slider-head h3 {font-size: 15px;}
+.stars-main {justify-content: center;}
+.review-modal button {font-size: 12px; padding: 7px 20px;}
+.slider-stars {padding: 5px; max-width: 130px;}
+.slider-stars i {font-size: 12px;}
+.start-num h4 {font-size: 13px; padding-left: 8px;}
+.about-discription {padding: 10px; margin: 10px 0;}
+.about-discription p {font-size: 13px; text-align: justify;}
+.about-review {display: block; padding: 15px; margin: 5px 5px;}
+.about-review-info h2 {font-size: 20px;}
+.about-review-info i {font-size: 13px;}
+.about-review-info p {font-size: 13px;}
+.about-prev {position: absolute; left: -3% !important; bottom: 25%;}
+.about-next {position: absolute; right: -3%; bottom: 25%;}
+
+/* pop-up-css */
+.pop-up {margin-top: 45px;}
+.pop-head {padding: 10px 18px 8px 10px !important;}
+.pop-head h1 {font-size: 15px !important;}
+.review-image {text-align: center;}
+.review-image img {max-width: 200px;}
+.review-head h4 {font-size: 16px;}
+.review-stars i {font-size: 12px;}
+.review-image img {height: 160px; max-width: 280px;}
+.review-info textarea {height: 120px;}
+.review-btn {text-align: left;}
+
+/* rating-stars */
+.rate {height: 30px;}
+.rate:not(:checked) > label {font-size: 20px;}
+/********************** slider-css-end **********************/
+
+/********************** package-section-css-start **********************/
+.package-head h2 {font-size: 28px;}
+.package-slider {padding: 30px 0 0 0;}
+.owl-item.active {margin-right: 20px !important;}
+.owl-info h2 {font-size: 12px;}
+.owl-info i {font-size: 10px;}
+.owl-info h3 {font-size: 12px;}
+/********************** package-section-css-end **********************/
+
+/********************** match-section-css-start **********************/
+.match-head h2 {font-size: 20px;}
+.match-head h3 {font-size: 30px;}
+.card-image-main {margin-bottom: 20px;}
+.card-image img {max-width: 600px;}
+/********************** match-section-css-end **********************/
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** banner-css-start **********************/
+.about-breadcrumb ol li a, .about-breadcrumb ol li, .about-breadcrumb ol li::before {font-size: 25px;}
+/********************** banner-css-end **********************/
+
+/********************** slider-css-start **********************/
+.about-slider-image {text-align: center;}
+.about-slider-image img {max-width: 400px;}
+.about-slider-info {padding: 20px 0; margin: 0; text-align: center;}
+.about-slider-head h2 {font-size: 28px;}
+.about-slider-head h3 {font-size: 18px;}
+.stars-main {justify-content: center;}
+.slider-stars {padding: 5px; max-width: 130px;}
+.slider-stars i {font-size: 12px;}
+.start-num h4 {font-size: 15px;}
+.about-discription {padding: 10px; margin: 15px 0;}
+.about-discription p {font-size: 15px; margin: 0;}
+.about-review {padding: 15px; margin: 5px 5px;}
+.about-prev {position: absolute; left: -3% !important; bottom: 20%;}
+.about-next {position: absolute; right: -3%; bottom: 20%;}
+
+/* pop-up-css */
+.review-info textarea {height: 130px;}
+.review-head h4 {font-size: 18px;}
+.review-stars i {font-size: 12px;}
+.review-btn {text-align: left;}
+.review-btn button {font-size: 14px; padding: 5px 15px;}
+
+/* rating-stars */
+.rate {height: 30px;}
+.rate:not(:checked) > label {font-size: 20px;}
+/********************** slider-css-end **********************/
+
+/********************** package-section-css-start **********************/
+.package-slider {padding: 30px 0 0 0;}
+/********************** package-section-css-end **********************/
+
+/********************** match-section-css-start **********************/
+.card-image img {max-width: 400px;}
+/********************** match-section-css-end **********************/
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+/********************** slider-css-start **********************/
+.about-slider-info {padding: 20px 0;}
+.about-slider-head h2 {font-size: 30px;}
+.about-slider-head h3 {font-size: 18px;}
+.about-discription {padding: 15px; margin: 20px 0;}
+.about-discription p {font-size: 15px;}
+.about-review {padding: 15px;}
+.about-prev {position: absolute; bottom: 1%;}
+.about-next {position: absolute; bottom: 1%; right: 43%;}
+/********************** slider-css-end **********************/
+
+}
+
+/*###################################### Single-Artist-Css-End ######################################*/
+
+
+/*###################################### Contact-Page-Css-start ###################################*/
+
+/********************** Contact-section-css-start **********************/
+.contact-image img {width: 100%; max-width: 600px;}
+.contact {padding: 30px 0 30px 30px;}
+.contact-head h2 {font-size: 40px; color: #000; font-weight: 700;}
+.contact-head p {font-size: 15px; color: #000;}
+.contact-form input, .contact-form textarea {border: none !important; padding: 8px 10px 8px 0 !important; margin-bottom: 10px; 
+    border-bottom: 1px solid #000 !important; border-radius: 0 !important;}
+.contact-form input:focus, textarea:focus {box-shadow: none !important;}
+.form-btn {text-align: center; margin-top: 25px;}
+.form-btn button {font-size: 14px; color: #fff; background-color: #000; padding: 10px 60px; 
+    border: 2px solid #000; transition: 0.3s;}
+.form-btn button:hover {background-color: #fff; color: #000; border: 2px solid #000; box-shadow: none !important;}   
+.form-btn button:focus-visible, .form-btn button:active, .mail-btn button:focus-visible, .mail-btn button:active
+  {background-color: #000 !important; color: #ffff !important;}  
+
+.mail-part {padding: 100px !important;}    
+.mail-head p {font-size: 25px; color: #000; font-weight: 900; text-transform: uppercase; margin: 0;}
+.mail {padding: 30px 0;}
+.mail input {padding: 10px 0; border: none; border-bottom: 2px solid #000; border-radius: 0; 
+    text-align: center;}
+.mail input::placeholder {font-size: 20px;}    
+.mail input:focus {box-shadow: none; border-color: #000;}
+.mail-btn {text-align: center;}
+.mail-btn button {font-size: 15px; color: #fff; padding: 12px 70px; background-color: #000;
+    border: 2px solid #000; transition: 0.3s;}
+.mail-btn button:hover {background-color: #fff; color: #000; border: 2px solid #000;
+    box-shadow: none;}   
+.map-part iframe {height: 500px; width: 100%;}
+/********************** Contact-section-css-end **********************/
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** Contact-section-css-start **********************/
+.contact-image {text-align: center;}
+.contact-image img {max-width: 200px;}
+.contact {padding: 20px 0px 0px 0px;}
+.contact-head {text-align: center;}
+.contact-head h2 {font-size: 25px;}
+.contact-head p {font-size: 13px;}
+.form-btn button {font-size: 13px; padding: 10px 40px;}
+
+.mail-part {padding: 50px 12px 50px 12px !important;}
+.mail-head p {font-size: 13px;}
+.mail-btn button {font-size: 13px; padding: 12px 40px;}
+.map-part iframe {height: 200px;}
+/********************** Contact-section-css-end **********************/    
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** Contact-section-css-start **********************/
+.contact-image {text-align: center;}
+.contact-image img {max-width: 400px;}
+.contact {padding: 20px 0px 0px 0px;}
+.contact-head {text-align: center;}
+.contact-head h2 {font-size: 28px;}
+.mail-head p {font-size: 14px;}
+.map-part iframe {height: 300px;}
+/********************** Contact-section-css-end **********************/    
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+/********************** Contact-section-css-start **********************/
+.contact {padding: 0px 0px 0px 30px;}
+.contact-head h2 {font-size: 28px;}
+.contact-head p {font-size: 14px; margin: 0;}
+.contact-form input, textarea {margin-bottom: 5px;}
+.form-btn {margin-top: 20px;}
+/********************** Contact-section-css-end **********************/    
+
+}
+    
+/*###################################### Contact-Page-Css-End ######################################*/
+
+/*###################################### Pricing-Page-Css-Start ######################################*/
+
+/********************** Popular-section-css-start **********************/  
+.popular-head {margin-bottom: 50px;}
+.popular-head h2 {font-size: 50px; color: #000; font-weight: 700; text-transform: uppercase;}
+.popular-head p {font-size: 18px; color: #000; width: 65%; margin: auto; line-height: 1.3;}
+.price-cards {background-color: #c0c0c02e; padding: 30px;}
+.price-head {border-bottom: 1px solid #00000094}
+.price-head h2 {font-size: 16px; font-weight: 600; color: #fff; background-color: #000; width: 100%; 
+    max-width: 110px; padding: 5px 8px; text-transform: uppercase; text-align: center;}
+.price-head h3 {font-size: 16px; color: #000; font-weight: 600; text-transform: uppercase;}
+.price-head h5 {font-size: 30px; color: red; font-weight: 600;}
+.price-body {padding-top: 20px;}
+.price-body h3 {font-size: 16px; color: #000; padding-bottom: 5px; margin-bottom: 15px; 
+    border-bottom: 1px solid #0000005e; width: 100%; max-width: 180px;}
+.price-btn {padding-top: 10px;}    
+.price-btn a {font-size: 15px; color: #fff; background-color: #000; padding: 8px 30px;
+     text-transform: uppercase; border: 2px solid #000; transition: 0.3s;}
+.price-btn a:hover {background-color: #fff; color: #000;}
+
+.price-cards-two {background-color: #000; padding: 30px 30px 70px 30px;}
+.price-head-two {border-bottom: 1px solid #ffffff96;}
+.price-head-two h2 {font-size: 16px; font-weight: 600; color: #000; background-color: #fff; width: 100%; 
+    max-width: 110px; padding: 5px 8px; text-transform: uppercase; text-align: center;}
+.price-head-two h3 {font-size: 16px; color: #fff; font-weight: 600; text-transform: uppercase;}
+.price-head-two h5 {font-size: 30px; color: red; font-weight: 600;}
+.price-body-two {padding-top: 20px;}
+.price-body-two h3 {font-size: 16px; color: #fff; padding-bottom: 5px; margin-bottom: 15px; 
+    border-bottom: 1px solid #fff6; width: 100%; max-width: 180px;}
+.price-btn-two {padding-top: 20px;}    
+.price-btn-two a {font-size: 15px; color: #000; background-color: #fff; padding: 8px 30px;
+     text-transform: uppercase; border: 2px solid #fff; transition: 0.3s;}
+.price-btn-two a:hover {background-color: #000; color: #fff;}
+/********************** Popular-section-css-end **********************/  
+
+/********************** Event-section-css-start **********************/  
+.event-head {padding-top: 60px;}
+.event-head h2 {font-size: 50px; color: #000; font-weight: 700; text-transform: uppercase; margin-bottom: 20px;}
+.event-head p {font-size: 20px; color: #000; line-height: 1.4;}
+
+/********************** Event-section-css-end **********************/ 
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** Popular-section-css-start **********************/  
+.popular-head h2 {font-size: 28px;}
+.popular-head p {font-size: 16px; width: 100%;}
+.price-cards, .price-cards-two {margin-bottom: 20px;}
+/********************** Popular-section-css-end **********************/ 
+
+/********************** Event-section-css-start **********************/  
+.event-head {text-align: center; padding-top: 0; margin-bottom: 50px;}
+.event-head h2 {font-size: 28px; margin-bottom: 10px;}
+.event-head p {font-size: 16px;}
+/********************** Event-section-css-end **********************/ 
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** Popular-section-css-start **********************/  
+.price-cards {padding: 15px;}
+.price-head h2 {font-size: 15px;}
+.price-head h3 {font-size: 15px;}
+.price-head h5 {font-size: 25px;}
+.price-body h3 {font-size: 14px; margin-bottom: 10px;}
+.price-btn a {font-size: 13px;}
+
+.price-cards-two {padding: 15px 15px 45px 15px;}
+.price-head-two h2 {font-size: 15px;}
+.price-head-two h3 {font-size: 15px;}
+.price-head-two h5 {font-size: 25px;}
+.price-body-two h3 {font-size: 14px; margin-bottom: 10px;}
+.price-btn-two a {font-size: 13px;}
+/********************** Popular-section-css-end **********************/ 
+
+/********************** Event-section-css-start **********************/  
+.event-head h2 {font-size: 30px;}
+.event-head p {font-size: 18px;}
+/********************** Event-section-css-end **********************/ 
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+   
+/********************** Event-section-css-start **********************/  
+.event-head h2 {font-size: 40px;}
+/********************** Event-section-css-end **********************/     
+
+}
+
+/*###################################### Pricing-Page-Css-End ######################################*/
+
+/*###################################### Artist-Page-Css-Start ######################################*/
+
+/********************** Steven-section-css-start **********************/  
+.steven-image img {height: 350px; width: 100%; max-width: 600px; object-fit: cover;}
+.steven-info {padding: 40px 0px 40px 30px;}
+.steven-info h2 {font-size: 40px; color: #000; font-weight: 700;}
+.steven-info p {font-size: 15px; color: #000; line-height: 1.8; text-align: justify;}
+.steven-contact-main {display: flex; align-items: center;}
+.steven-mail h3 {font-size: 20px; color: #000; font-weight: 700;}
+.steven-number h4, .steven-number a {font-size: 18px; color: #000;}
+.steven-number {margin-left: 5px;}
+/********************** Steven-section-css-end **********************/ 
+
+/********************** Testimonial-section-css-start **********************/  
+.testimonial-section {background-image: url(../images/bg_testimonials.jpg); height: 400px; width: 100%;
+    background-position: center; background-size: cover; background-repeat: no-repeat;}
+.testimonial-slider {text-align: center;}
+.testimonial-head h2 {font-size: 50px; color: #fff; font-weight: 700;}
+.testimonial-head p {font-size: 18px; color: #fff; width: 100%; max-width: 700px; margin: 30px auto;}
+.testimonial-head p i {font-size: 25px; margin: 0 10px;}
+.testimonial-footer h3 {font-size: 23px; color: #fff; font-weight: 700; margin-bottom: 5px;}
+.testimonial-footer h4 {font-size: 15px; color: #ffffffba;}
+/********************** Testimonial-section-css-end **********************/
+
+/********************** Steven-contact-section-css-start **********************/  
+.steven-con-head h2 {font-size: 50px; color: #000; font-weight: 700;}
+.steven-form input, .steven-form textarea {color: #000 !important; background-color: #c0c0c069; padding: 11px 10px; 
+    margin-bottom: 30px; border: none;}
+.steven-form input:focus, .steven-form textarea:focus {background-color: #c0c0c069 !important; 
+    border-color: #000 !important; box-shadow: inset 0 0 0 1px #000 !important;}
+.steven-con-info p {font-size: 18px; color: #000;}
+.steven-con-btn button {font-size: 15px; color: #fff; background-color: #000; padding: 10px 50px;
+    border: 2px solid #000; transition: 0.3s;}
+.steven-con-btn button:hover {background-color: #fff; color: #000; border: 2px solid #000;}
+.steven-con-btn button:focus-visible, .steven-con-btn button:active, .steven-con-btn button:focus-visible, 
+.steven-con-btn button:active {background-color: #000 !important; color: #ffff !important;}  
+/********************** Steven-contact-section-css-end **********************/
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** Steven-section-css-start **********************/ 
+.steven-image {text-align: center;}
+.steven-image img {height: 250px; max-width: 200px;} 
+.steven-info {padding: 10px 0 0 0; text-align: center;}
+.steven-info h2 {font-size: 28px;}
+.steven-info p {font-size: 14px;}
+.steven-contact-main {justify-content: center; text-align: left;}
+.steven-mail h3 {font-size: 17px;}
+.steven-number h4, .steven-number a {font-size: 15px;}
+/********************** Steven-section-css-end **********************/ 
+
+/********************** Testimonial-section-css-start **********************/  
+.testimonial-section {height: 380px;}
+.testimonial-head h2 {font-size: 28px;}
+.testimonial-head p {font-size: 14px; max-width: 300px; margin: 20px auto;}
+.testimonial-footer h3 {font-size: 18px;}
+.testimonial-footer h4 {font-size: 14px;}
+/********************** Testimonial-section-css-end **********************/
+
+/********************** Steven-contact-section-css-start **********************/  
+.steven-con-head h2 {font-size: 28px;}
+.steven-form input, .steven-form textarea {margin-bottom: 10px;}
+.steven-con-info p {font-size: 15px;}
+.steven-con-btn button {font-size: 14px; padding: 10px 40px;}
+/********************** Steven-contact-section-css-end **********************/
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** Steven-section-css-start **********************/  
+.steven-info {padding: 30px 0 0 0;}
+.steven-info h2 {font-size: 28px;}
+.steven-info p {font-size: 13px;}
+.steven-mail h3 {font-size: 18px;}
+.steven-number h4, .steven-number a {font-size: 17px;}
+/********************** Steven-section-css-end **********************/ 
+
+/********************** Testimonial-section-css-start **********************/ 
+.testimonial-section {height: 370px;} 
+.testimonial-head p {font-size: 15px; max-width: 500px; margin: 20px auto;}
+/********************** Testimonial-section-css-end **********************/
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    
+/********************** Steven-section-css-start **********************/  
+.steven-info {padding: 20px 0 0 0;}
+/********************** Steven-section-css-end **********************/     
+
+}
+
+/*###################################### Artist-Page-Css-End ######################################*/
+
+
+/*###################################### Portfolio-Page-Css-Start ######################################*/
+
+/********************** Portfolio-section-css-start **********************/  
+.portfolio-head h2 {font-size: 50px; color: #000; font-weight: 700;}
+.portfolio-head p {font-size: 18px; color: #000; width: 70%; margin: auto;}
+.tabs-main {padding: 50px 0 30px 0;}
+.portfolio-images img {height: 400px; width: 100%; max-width: 500px; object-fit: cover; 
+    margin-bottom: 20px;}
+/* .portfolio-menu ul {background-color: #000 !important; width: 100%; max-width: 555px; margin: auto;
+    border-radius: 50px; align-items: center; display: flex;}
+.portfolio-menu ul li {font-size: 15px !important; color: #fff !important; padding: 5px 20px !important;
+    margin: 8px 0 !important; border: none !important; border-radius: 50px !important; transition: 0.3s;
+    list-style: none; cursor: pointer;} 
+.portfolio-menu ul li.active {background-color: #fff !important; color: #000 !important; padding: 5px 20px;
+    border-radius: 50px;}
+.portfolio-menu ul li:hover {background-color: #fff !important; color: #000 !important;
+    padding: 10px 20px; border-radius: 50px !important} */
+
+.portfolio-filters {background-color: #000 !important; width: 100%; max-width: 480px; margin: auto;
+    border-radius: 50px; align-items: center; display: flex; justify-content: center;}
+.portfolio-filters button {font-size: 15px !important; color: #fff !important; padding: 5px 20px !important;
+    margin: 8px 0 !important; border: none !important; border-radius: 50px !important; transition: 0.3s;
+    list-style: none; background-color: #000;} 
+.portfolio-filters button.active {background-color: #fff !important; color: #000 !important; padding: 5px 20px;
+    border-radius: 50px;}
+.portfolio-filters button:hover {background-color: #fff !important; color: #000 !important;
+    padding: 10px 20px; border-radius: 50px !important}
+.filter-image {text-align: center; position: unset;}
+.filter-image img {height: 300px; width: 100%; max-width: 450px; margin-bottom: 20px;}    
+/********************** Portfolio-section-css-end **********************/  
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** Portfolio-section-css-start **********************/  
+.portfolio-head h2 {font-size: 28px;}
+.portfolio-head p {font-size: 16px; width: 100%;}
+.portfolio-images img {height: 250px;}
+.portfolio-filters {max-width: 300px;}
+.portfolio-filters button {font-size: 10px !important; padding: 6px 10px !important;}
+/********************** Portfolio-section-css-end **********************/
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** Portfolio-section-css-start **********************/  
+.portfolio-images img {height: 300px;}
+/********************** Portfolio-section-css-end **********************/
+
+}
+
+/*###################################### Portfolio-Page-Css-End ######################################*/
+
+/*###################################### Wishlist-Page-Css-Start ######################################*/
+
+/********************** Wishlist-section-css-start **********************/  
+.heading-row {padding-top: 40px;}
+.card-heading h2 {font-size: 14px; color: #000; font-weight: 700; margin-bottom: 15px;}
+.card-row {align-items: center; border-top: 1px solid #0000003d; border-bottom: 1px solid #0000003d;
+    padding: 20px 0;}
+.product-remove i {font-size: 20px; color: #000;}
+.product-image img {width: 100%; max-width: 80px;}
+.product-name h2 {font-size: 15px; color: #000; font-weight: 700;}
+.product-price h3, .product-status h3 {font-size: 14px; color: #202020;}
+.product-btn a {font-size: 13px; color: #000; font-weight: 600; text-transform: uppercase;
+    border: 1px solid #000; padding: 12px 60px; transition: 0.3s;}
+.product-btn a:hover {background-color: #000; color: #fff;}    
+/********************** Wishlist-section-css-end **********************/
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** Wishlist-section-css-start **********************/  
+.heading-row {display: none !important;}
+.card-row {margin: 0 !important; text-align: center;}  
+.product-remove {text-align: end;}
+.product-image img {max-width: 150px; margin-top: -22px; margin-bottom: 10px;}
+.product-btn {margin-top: 20px;}
+.product-btn a {font-size: 12px; padding: 10px 40px;}
+/********************** Wishlist-section-css-end **********************/
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** Wishlist-section-css-start **********************/  
+.heading-row {padding-top: 40px;}
+.card-heading h2 {font-size: 11px;}
+.product-btn a {font-size: 12px; padding: 12px 30px;}    
+/********************** Wishlist-section-css-end **********************/
+
+}
+
+/*###################################### Wishlist-Page-Css-End ######################################*/
+
+
+/*###################################### Log-in-Page-Css-Start ######################################*/
+
+/********************** Log-section-css-start **********************/ 
+.log-link h5 {font-size: 18px; color: #000;}
+.log-link a {color: #800000; font-weight: 600; transition: .3s;}
+.log-link a:hover {color: #800000; text-decoration: underline;}
+.login-tabs {width: 100%; max-width: 520px; margin: auto; background-color: #fff; border: 1px solid #0000001f;
+    box-shadow: 0 0 20px 0 #0000003d; border-radius: 10px;}   
+.login-tabs h4 {font-size: 28px; color: #fff; font-weight: 600; background-color: #000; text-align: center;
+    padding: 20px 0; margin: 0; border-top-left-radius: 10px; border-top-right-radius: 10px;
+    text-transform: uppercase;}   
+.log-heading {padding: 30px;}  
+/* .login-tabs ul {border-top-left-radius: 10px !important; border-top-right-radius: 10px !important;
+    justify-content: space-between;}
+.login-tabs ul li button {font-size: 13px !important; font-weight: 600 !important; color: #000 !important; 
+    background-color: rgba(192, 192, 192, 0.075) !important; padding: 20px 85px !important; border-bottom: 1px solid #0000000b !important;}    
+.login-tabs ul li button.active {background-color: #3b71ca29 !important; color: #2e6acc !important;
+        border: none;} */
+.log-heading h2 {font-size: 15px; color: #000; margin-bottom: 15px;}
+.login-form input {border-color: #00000021; margin-bottom: 15px; padding: 8px 10px; border-radius: 5px;}
+.login-form input::placeholder {font-size: 13px; color: #0000004f;}
+.login-btn button {font-size: 12px; color: #fff; background-color: #2e6acce3; padding: 10px 40px;
+    border-radius: 8px; border: 1px solid #2e6acce3; box-shadow: none !important; transition: 0.3s;}
+.login-btn button:hover {background-color: #ffff; color: #2e6acce3; border: 1px solid #2e6acce3;
+    box-shadow: none !important;}    
+.login-checkbox label {font-size: 13px; color: #00000085;}
+.login-pswd a {font-size: 13px; color: #000;}
+.or-word h2 {font-size: 14px; color: #000; display: flex; align-items: center; justify-content: center;
+    margin: 20px 0;}
+.or-word h2::before {content: ""; height: 1px; width: 100%; background-color: #00000038; margin-right: 5px;}
+.or-word h2::after {content: ""; height: 1px; width: 100%; background-color: #00000038; margin-left: 5px;}
+.login-icons-one i {font-size: 18px; background-color: rgba(59, 89, 152, 0.1); color: #3b5998; padding: 10px 62px; border-radius: 10px; border: 1px solid #3b5998;
+    transition: 0.3s;}
+.login-icons-one i:hover {background-color: #3b5998; color: #fff;}
+.login-icons-two i {font-size: 18px; background-color: rgba(221, 75, 57, 0.1); color: #dd4b39; padding: 10px 59px; border-radius: 10px; border: 1px solid #dd4b39; 
+    transition: 0.3s;}
+.login-icons-two i:hover {background-color: #dd4b39; color: #fff;}    
+.login-icons-three i {font-size: 18px; background-color: rgba(85, 172, 238, 0.1); color: #55acee; padding: 10px 59px; border-radius: 10px; border: 1px solid #55acee;
+    transition: 0.3s;}
+.login-icons-three i:hover {background-color: #55acee; color: #fff;}  
+/********************** Log-section-css-end **********************/
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** Log-section-css-start **********************/  
+.log-link h5 {font-size: 15px;}
+.login-tabs {max-width: 295px;}
+/* .login-tabs ul li button {font-size: 12px !important; padding: 20px 32px !important;}  */
+.log-heading {padding: 20px 15px;}
+.login-tabs h4 {font-size: 18px; padding: 10px 0;}
+.login-part {padding: 25px 15px;}
+.login-btn {padding-bottom: 10px;}
+.login-btn button {padding: 8px 30px;}
+.login-pswd {text-align: center;}
+.login-icons-one i {font-size: 15px; padding: 10px 30px;}
+.login-icons-two i {font-size: 15px; padding: 10px 28px;}
+.login-icons-three i {font-size: 15px; padding: 10px 28px;}
+/********************** Log-section-css-end **********************/
+
+}
+
+/*###################################### Log-in-Page-Css-End ######################################*/
+
+/*###################################### Privacy-policy-Page-Css-start ######################################*/
+
+/********************** privacy-css-start ***********************/
+.privacy-image img {width: 100%; max-width: 450px;}
+.policy-heading h2 {font-size: 40px; color: #800000; font-weight: 600; margin-bottom: 30px;}
+.policy-discription p {font-size: 16px; color: #000; margin-bottom: 25px;}
+
+.privacy-headings h3 {font-size: 20px; color: #800000; font-weight: 600;}
+.privacy-para p {font-size: 16px; color: #000;}
+/********************** privacy-css-end ***********************/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** privacy-css-start **********************/
+.policy {margin-bottom: 40px;}
+.policy-heading h2 {font-size: 22px; margin-bottom: 10px;}
+.policy-discription p {font-size: 13px; text-align: justify; margin-bottom: 15px;}
+.privacy-headings h3 {font-size: 16px;}
+.privacy-para p {font-size: 13px; text-align: justify;}
+/********************** privacy-css-end ***********************/
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/********************** privacy-css-start ***********************/
+.policy-heading h2 {font-size: 30px; margin-bottom: 10px;}
+.policy-discription p {font-size: 15px; margin-bottom: 20px;}
+/********************** privacy-css-end ***********************/
+    
+}
+/*###################################### Privacy-policy-Page-Css-End ######################################*/
+
+/*###################################### Terms-Condition-Page-Css-start ######################################*/
+
+/********************** terms-conditon-css-start ***********************/
+.terms-head h2 {font-size: 40px; color: #800000; font-weight: 700;}
+.terms-para p {font-size: 17px; color: #000; text-align: justify;}
+/********************** terms-conditon-css-end ***********************/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/********************** terms-conditon-css-start **********************/
+.terms-head h2 {font-size: 25px;}
+.terms-para p {font-size: 14px;}
+/********************** terms-conditon-css-end ***********************/
+
+}
+
+/*###################################### Terms-Condition-Page-Css-End ##################################*/
+
+/*###################################### My-Favourite 2-Page-Css-start ##################################*/
+.user-dropdown button {background-color: transparent; font-size: 15px; color: #fff; padding: 0 25px 0 0; 
+    text-transform: capitalize; box-shadow: none !important;}
+.user-dropdown button:hover, .user-dropdown button:active, .user-dropdown button:focus {
+    background-color: transparent !important; color: #fff !important; box-shadow: none !important;}
+.user-dropdown ul li a {font-size: 14px; color: #000;}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.user-dropdown button {font-size: 13px;}
+.user-dropdown ul {min-width: 100px; margin-left: -15px !important;}
+.user-dropdown ul li a {font-size: 12px; padding: 5px 10px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.user-dropdown button {font-size: 16px;}
+
+}
+
+/*###################################### My-Favourite 2-Page-Css-End ##################################*/

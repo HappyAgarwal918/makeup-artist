@@ -1,0 +1,132 @@
+/*----- Profile DP input form style -----*/
+
+#profiledp .wrap {
+  max-width: 60%;
+  margin: 50px auto;
+}
+
+#profiledp #preview {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border: 8px solid #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+#profiledp #preview:after {
+  content: "Preview";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #fff;
+}
+#profiledp #preview img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  min-height: 100%;
+}
+
+#profiledp .file {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 100%;
+}
+#profiledp .file input {
+  min-width: 14rem;
+  margin: 0;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+#profiledp .file input:focus ~ .file-custom {
+  box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.2rem #0074d9;
+}
+
+#profiledp .file-custom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  padding: 1rem;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  border: 0.075rem solid #ddd;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#profiledp .file-custom:after {
+  content: "Choose a Pic";
+}
+#profiledp .file-custom.active:after {
+  content: attr(data-label);
+}
+#profiledp .file-custom:before {
+  position: absolute;
+  top: -0.075rem;
+  right: -0.075rem;
+  bottom: -0.075rem;
+  z-index: 6;
+  display: block;
+  content: "Browse";
+  padding: 1rem;
+  line-height: 1.5;
+  color: #555;
+  background-color: #eee;
+  border: 0.075rem solid #ddd;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/*----- Profile DP input form style end -----*/
+
+.main-content{
+  min-height: calc(100vh - 120px);
+}
+.dataTables_filter {
+  float:right;
+  margin-bottom: 1em;
+  
+  &:after {
+    clear:both;
+  }
+}
+.white-sp-normal{
+  white-space: normal !important;
+  line-height: normal !important;
+}
+.profile-img{
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.address-edit{
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  right: 0;
+  color: maroon;
+}
+
+.dropdown.bootstrap-select.show-tick 
+{
+    display: block;
+    width: 100%!important;
+}
